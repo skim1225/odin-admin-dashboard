@@ -41,6 +41,52 @@ ul img {
     height: 40px;
 }
 
+.top-bar { 
+    height: 50px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 150px;
+}
+
+.search {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    grid-template-columns: 1fr 18fr;
+}
+
+.search img {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.search input {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.top-right {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: grid;
+    grid-template-columns: 1fr 2fr 5fr;
+}
+
+#bell {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.top-right .user-icon {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.top-right h3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
 .user-icon {
     width: 40px;
     height: 40px;
