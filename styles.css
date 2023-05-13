@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 5fr;
@@ -62,7 +63,30 @@ button {
     grid-row-start: 2;
     grid-row-end: 3;
     background-color: #e5e5e5;
+    display: grid;
     grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.project {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.announcements {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.trending {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3; 
 }
 
 .card {
@@ -76,4 +100,8 @@ button {
 
 ul {
     list-style-type: none;
+}
+
+.trending, .announcements {
+    background-color: white;
 }
