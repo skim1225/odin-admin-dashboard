@@ -37,8 +37,8 @@ ul img {
 }
 
 .header img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 .top-bar { 
@@ -77,9 +77,12 @@ ul img {
     grid-column-end: 2;
 }
 
-.top-right .user-icon {
+#user-top-right {
     grid-column-start: 2;
     grid-column-end: 3;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
 }
 
 .top-right h3 {
@@ -93,10 +96,27 @@ ul img {
     border-radius: 50%;
 }
 
+.low-bar {
+    display: grid;
+    grid-template-columns: 1fr 9fr 6fr;
+}
+
 #user-icon-2 {
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#greetings {
+    grid-column-start: 3;
+    grid-column-end: 4; 
+}
+
+#btns {
+    grid-column-start: 3;
+    grid-column-end: 4; 
 }
 
 button {
@@ -110,7 +130,7 @@ button {
     grid-row-end: 3;
     background-color: #e5e5e5;
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 5fr 2fr;
     grid-template-rows: 1fr 1fr;
 }
 
@@ -119,6 +139,10 @@ button {
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 3;
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: repeat(300px, 3);
+    gap: 30px;
 }
 
 .announcements {
@@ -137,6 +161,9 @@ button {
 
 .card {
     background-color: white;
+    height: 300px;
+    width: 600px;
+    border-radius: 10px;
 }
 
 .card img {
