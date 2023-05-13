@@ -40,7 +40,7 @@ ul img {
     height: 40px;
 }
 
-#user-icon-1 {
+.user-icon {
     width: 40px;
     height: 40px;
     border-radius: 50%;
