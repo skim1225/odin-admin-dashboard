@@ -7,31 +7,39 @@
     <link rel="stylesheet" href="styles.css">
     <title>Admin Dashboard</title>
 </head>
-<body class="container">
+<body>
     <div class="sidebar">
-        <h1>Dashboard</h1>
-        <ul class=>
-            <li>Home</li>
-            <li>Profile</li>
-            <li>Messages</li>
-            <li>History</li>
-            <li>Tasks</li>
-            <li>Communities</li>
+        <div class="title">
+            <img src='img/view-dashboard.svg' alt="logo">
+            <h1>Dashboard</h1>
+        </div>
+        <ul class="list-1">
+            <li><img src="img/home.svg" alt="home">Home</li>
+            <li><img src="img/profile-card.svg" alt="profile">Profile</li>
+            <li><img src="img/message-reply.svg" alt="messages">Messages</li>
+            <li><img src="img/clock-time-three.svg" alt="clock icon">History</li>
+            <li><img src="img/note-multiple.svg" alt="notes">Tasks</li>
+            <li><img src="img/account-group.svg" alt="people">Communities</li>
         </ul>
-        <ul>
-            <li>Settings</li>
-            <li>Support</li>
-            <li>Privacy</li>
+        <ul class="list-2">
+            <li><img src="img/cog.svg" alt="cog">Settings</li>
+            <li><img src="img/help-box.svg" alt="help">Support</li>
+            <li><img src="img/shield-check.svg" alt="shield icon">Privacy</li>
         </ul>
     </div>
     <div class="header">
-        <div class="nav">
-            <img class="search-img">Bell</div>
-            <input type="search">
-            <img class="user-icon">Icon</div>
-            <div class="user-name">User Name</div>
+        <div class="top-bar">
+            <div class="search">
+                <img alt="search-logo">
+                <input type="search">
+            </div>
+            <div class="top-right">
+                <img alt="bell">
+                <img alt="profile-pic">
+                <h3>User Name</h3>
+            </div>
         </div>
-        <div class="greeting">
+        <div class="low-bar">
             <div class="user-icon">User icon</div>
             <h4>Hi there,</h4>
             <h2>User Name (@username)</h2>
@@ -115,7 +123,7 @@
                     <p>blah blah blahblah blah</p>
                 </div>
             </div>
-            <div class="Trending">
+            <div class="trending">
                 <div class="user-card">
                     <img src="" alt="user-icon">
                     <p>@User</p>
@@ -138,6 +146,6 @@
                 </div>
             </div>
         </div>
-    </div> 
+    </div>
 </body>
 </html>
