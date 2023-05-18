@@ -4,7 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 5fr;
 }
 
@@ -141,10 +141,13 @@ button {
     grid-row-start: 1;
     grid-row-end: 3;
     display: grid;
-    grid-template-columns: 600px 600px;
-    grid-template-rows: repeat(300px, 3);
+    grid-template: 1fr 1fr 1fr / 1fr 1fr;
     gap: 30px;
-    padding: 30px;
+}
+
+#container-1 {
+    padding-left: 25px;
+    padding-top: 30px;
 }
 
 .announcements {
@@ -164,10 +167,11 @@ button {
 .card {
     background-color: white;
     height: 240px;
-    width: 540px;
+    width: 500px;
     border-radius: 10px;
     display: grid;
     grid-template: 4fr 1fr / 1fr 15fr 15fr;
+    box-shadow: 3px 4px 3px #d4d4d4;
 }
 
 #stripe {
@@ -190,6 +194,7 @@ button {
 
 .card p {
     color: #737373;
+    font-size: 18px;
 }
 
 .card img {
