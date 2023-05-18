@@ -150,11 +150,26 @@ button {
     padding-top: 30px;
 }
 
+.aside {
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
 .announcements {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
+    padding: 30px 40px;
+}
+
+.news p {
+    color: #737373;
+    font-size: 14px; 
+}
+
+#container-2 {
+    margin-top: 40px;
 }
 
 .trending {
@@ -162,16 +177,15 @@ button {
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3; 
+    padding: 40px;
 }
 
 .card {
     background-color: white;
     height: 240px;
     width: 500px;
-    border-radius: 10px;
     display: grid;
     grid-template: 4fr 1fr / 1fr 15fr 15fr;
-    box-shadow: 3px 4px 3px #d4d4d4;
 }
 
 #stripe {
@@ -208,4 +222,9 @@ ul {
 
 .trending, .announcements {
     background-color: white;
+}
+
+.card, .announcements, .trending {
+    box-shadow: 3px 4px 3px #d4d4d4;
+    border-radius: 10px;
 }
