@@ -6,6 +6,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 200px 1000px;
+    margin: 0;
 }
 
 .sidebar {
@@ -64,13 +65,13 @@ li {
     grid-template-columns: 2fr 1fr;
     gap: 150px;
     margin-left: 40px;
-    margin-top: 30px;
 }
 
 .search {
     grid-column-start: 1;
     grid-column-end: 2;
     display: grid;
+    align-items: center;
     grid-template-columns: 1fr 18fr;
 }
 
@@ -92,7 +93,9 @@ li {
     grid-column-start: 2;
     grid-column-end: 3;
     display: grid;
-    grid-template-columns: 1fr 2fr 5fr;
+    grid-template-columns: 1fr 1fr 5fr;
+    align-items: center;
+    gap: 10px;
 }
 
 #bell {
@@ -114,8 +117,8 @@ li {
 }
 
 .user-icon {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
 }
 
