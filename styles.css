@@ -160,7 +160,6 @@ button {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
-    padding: 30px 40px;
 }
 
 .news p {
@@ -177,7 +176,6 @@ button {
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3; 
-    padding: 40px;
 }
 
 .card {
@@ -222,9 +220,26 @@ ul {
 
 .trending, .announcements {
     background-color: white;
+    padding: 30px 40px;
 }
 
 .card, .announcements, .trending {
     box-shadow: 3px 4px 3px #d4d4d4;
     border-radius: 10px;
 }
+
+.user-card {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.user-card p {
+    color: #737373;
+}
+
+.user-card img {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+}
+
